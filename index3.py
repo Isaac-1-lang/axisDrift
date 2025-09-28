@@ -12,7 +12,7 @@ pygame.init()
 # -----------------------------
 WIN_WIDTH, WIN_HEIGHT = 800, 600
 win = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
-pygame.display.set_caption("Joystick 2D Shooter")
+pygame.display.set_caption("Axis Drift 0.2")
 
 # -----------------------------
 # Load background and character
