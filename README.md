@@ -1,4 +1,4 @@
-# 2D Joystick Character Control
+# Axis Drift
 
 This project demonstrates how to control a 2D character using a joystick with Arduino. The code is written in an `.ino` file and is intended for microcontroller platforms.
 
