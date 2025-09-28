@@ -17,8 +17,8 @@ pygame.display.set_caption("Joystick 2D Shooter")
 # -----------------------------
 # Load background and character
 # -----------------------------
-bg_path = os.path.abspath("../Downloads/index.jpeg")
-character_path = os.path.abspath("../Downloads/girl.png")
+bg_path = os.path.abspath("./assets/index.jpeg")
+character_path = os.path.abspath("./assets/girl.png")
 
 background = pygame.image.load(bg_path)
 background = pygame.transform.scale(background, (WIN_WIDTH, WIN_HEIGHT))

@@ -15,8 +15,8 @@ pygame.display.set_caption("2D Car Driving")
 # -----------------------------
 # Load background and car
 # -----------------------------
-bg_path = os.path.abspath("../Downloads/index3.jpeg")
-car_path = os.path.abspath("../Downloads/car.png")  # Replace with car sprite
+bg_path = os.path.abspath("./assets/index3.jpeg")
+car_path = os.path.abspath("./assets/car.png")  # Replace with car sprite
 
 background = pygame.image.load(bg_path)
 background = pygame.transform.scale(background, (WIN_WIDTH, WIN_HEIGHT))
